@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="styleOmah.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+</head>
+<style>
+input:focus {
+    outline: none;
+}
+.small-img-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+</style>
+<body>
+    <form name ="Iform" action="" method="post">
+    <div class="cart">
+        <p class="title-text">Order Checkout</p><br>
+        <hr class="title-line">
+        <table width="60%">
+            <tbody align="left">
+                <tr>
+                    <th colspan="2" align="center" bgcolor="1f2a42"> ---------------- </th> 
+                </tr>
+                <tr>
+                    <td style="width:20%">
+                        <div class="col-2">
+                            <img src="images/product/20200407_213401.jpg" width="100%" class="ProductImg" id="ProductImg">
+                
+                            <div class="small-img-row">
+                                <div class="small-img-col">
+                                    <img src="images/product/20200407_213401.jpg" width="100%" class="small-img">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="images/product/rolade.jpeg" width="100%" class="small-img">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lpjgsbdutodx21.webp" width="100%" class="small-img">
+                                </div>
+                            </div>
+                    </td>
+                    <td style="width:80%">
+                            <pre>
+        <u><b>Rolade [Besto]</b></u>
+
+        Price          : Rp 28.000,-     
+        Quantity       :<input type="number" name="iRolade" min="0" required>    
+                            </pre>
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width:20%">
+                        <div class="col-2">
+                            <img src="images/product/PhotoGrid_1543667514639.jpg" width="100%" class="ProductImg" id="ProductImgB">
+                
+                            <div class="small-img-row">
+                                <div class="small-img-col">
+                                    <img src="images/product/PhotoGrid_1543667514639.jpg" width="100%" class="small-imgB">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="images/product/rolls.jpg" width="100%" class="small-imgB">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lpjgsbdutodx21.webp" width="100%" class="small-imgB">
+                                </div>
+                            </div>
+                    </td>
+                    <td style="width:80%">
+                            <pre>
+        <u><b>Chicken Roll [Bulaf]</b></u>
+
+        Price          : Rp 22.500,-     
+        Quantity       :<input type="number" name="iRoll" min="0" required>    
+                            </pre>
+                        
+                    </td>
+                </tr>  
+
+                <tr>
+                    <td style="width:20%">
+                        <div class="col-2">
+                            <img src="images/product/PhotoGrid_1538103052452.jpg" width="100%" class="ProductImg" id="ProductImgC">
+                
+                            <div class="small-img-row">
+                                <div class="small-img-col">
+                                    <img src="images/product/PhotoGrid_1538103052452.jpg" width="100%" class="small-imgC">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="images/product/bakwan2.jpg" width="100%" class="small-imgC">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lpjgsbdutodx21.webp" width="100%" class="small-imgC">
+                                </div>
+                            </div>
+                    </td>
+                    <td style="width:80%">
+                            <pre>
+        <u><b>Bakwan ikan [Salimah]</b></u>
+
+        Price          : Rp 26.500,-     
+        Quantity       :<input type="number" name="iBakwan" min="0" required>    
+                            </pre>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width:20%">
+                        <div class="col-2">
+                            <img src="images/product/donut salimah.jpg" width="100%" class="ProductImg" id="ProductImgD">
+                
+                            <div class="small-img-row">
+                                <div class="small-img-col">
+                                    <img src="images/product/donut salimah.jpg" width="100%" class="small-imgD">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="images/product/donat.jpg" width="100%" class="small-imgD">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lpjgsbdutodx21.webp" width="100%" class="small-imgD">
+                                </div>
+                            </div>
+                    </td>
+                    <td style="width:80%">
+                            <pre>
+        <u><b>Donat Kentang [Salimah]</b></u>
+
+        Price          : Rp 22.800,-     
+        Quantity       :<input type="number" name="iDonat" min="0" required>    
+                            </pre>  
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width:20%">
+                        <div class="col-2">
+                            <img src="images/product/yogurt.jpeg" width="100%" class="ProductImg" id="ProductImgE">
+                
+                            <div class="small-img-row">
+                                <div class="small-img-col">
+                                    <img src="images/product/yogurt.jpeg" width="100%" class="small-imgE">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="images/product/yogurt.jpg" width="100%" class="small-imgE">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lpjgsbdutodx21.webp" width="100%" class="small-imgE">
+                                </div>
+                            </div>
+                    </td>
+                    <td style="width:80%">
+                            <pre>
+        <u><b>Yogurt [My Healthy]</b></u>
+
+        Price          : Rp 16.500,-     
+        Quantity       :<input type="number" name="iYogurt" min="0" required>    
+                            </pre>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td style="width:20%">
+                        <div class="col-2">
+                            <img src="images/product/20190111_111421.jpg" width="100%" class="ProductImg" id="ProductImgF">
+                
+                            <div class="small-img-row">
+                                <div class="small-img-col">
+                                    <img src="images/product/20190111_111421.jpg" width="100%" class="small-imgF">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="images/product/Hash.png" width="100%" class="small-imgF">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lpjgsbdutodx21.webp" width="100%" class="small-imgF">
+                                </div>
+                            </div>
+                    </td>
+                    <td style="width:80%">
+                            <pre>
+        <u><b>Hash Browns [MyDibel]</b></u>
+
+        Price          : Rp 34.000,-     
+        Quantity       :<input type="number" name="iHash" min="0" required>    
+                            </pre>
+                    </td>
+                </tr>
+   
+                <tr>
+                    <td style="width:20%">
+                        <div class="col-2">
+                            <img src="images/product/20190405_121711.jpg" width="100%" class="ProductImg" id="ProductImgG">
+                
+                            <div class="small-img-row">
+                                <div class="small-img-col">
+                                    <img src="images/product/20190405_121711.jpg" width="100%" class="small-imgG">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="images/product/nugget.jpeg" width="100%" class="small-imgG">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lpjgsbdutodx21.webp" width="100%" class="small-imgG">
+                                </div>
+                            </div>
+                    </td>
+                    <td style="width:80%">
+                            <pre>
+        <u><b>Crispy Chicken Nugget [Kanzler]</b></u>
+
+        Price          : Rp 36.500,-     
+        Quantity       :<input type="number" name="iNugget" min="0" required>    
+                            </pre>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="width:20%">
+                        <div class="col-2">
+                            <img src="images/product/20200518_203317.jpg" width="100%" class="ProductImg" id="ProductImgH">
+                
+                            <div class="small-img-row">
+                                <div class="small-img-col">
+                                    <img src="images/product/20200518_203317.jpg" width="100%" class="small-imgH">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="images/product/katsu.jpg" width="100%" class="small-imgH">
+                                </div>
+                                <div class="small-img-col">
+                                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lpjgsbdutodx21.webp" width="100%" class="small-imgH">
+                                </div>
+                            </div>
+                    </td>
+                    <td style="width:80%">
+                            <pre>
+        <u><b>Chicken Katsu [Queen Food]</b></u>
+
+        Price          : Rp 36.500,-     
+        Quantity       :<input type="number" name="iKatsu" min="0" required>    
+                            </pre>   
+                    </td>
+                </tr>
+
+                <tr>
+                    <th colspan="2" bgcolor="1f2a42" align="center"> ---------------- </th>
+                </tr>
+                <br>
+                <tr>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+        <div class="box-cart">
+            <img src="images/boxEle.png" alt="element" class="Element-1">
+            <p class="box2-sub">Details</p>
+            <p class="box2-par">
+                <pre>
+    Name            : <input type="text" name="iName" style="width: 30%;" required>  
+    Pengiriman    : <select name="iKirim" style="width: 30%;" required>   
+                        <option value="Jakarta">JAKARTA</option>
+                        <option value="Bodetabek">BODETABEK</option>
+                        <option value="Jawa">PULAU JAWA</option>
+                        <option value="NonJawa">LUAR PULAU JAWA</option>
+                     </select>  
+    Reseller         : <input type="checkbox" name="iResell">   
+                </pre>  
+            </p>
+                <hr class="line-abt">
+
+            <p class="box2-sub">Your Cart</p>
+            <p class="box2-par" id="total">
+                <pre>
+    Sub Total   : <input type="text" name="oSub" style="background: transparent; border: none transparent;" readonly>
+    Diskon       : <input type="text" name="oDiskon" style="background: transparent; border: none transparent;" readonly>
+    Ongkir       : <input type="text" name="oOngkir" style="background: transparent; border: none transparent;" readonly> 
+    Total          : <input type="text" name="oTotal" style="background: transparent; border: none transparent;" readonly>
+                </pre>
+            </p>
+                <hr class="line-abt">
+
+            <p class="box2-sub">
+                <p align="center" style="font-size: 10px;">! Please make sure the quantity on every product is all filled !</p>
+                <center>
+                    <input type="button" value="Process" onclick="hitungtotal()" style="margin: 5px;padding: 2px;width: 20%;"> <input type="button" value="Checkout" onclick="window.location.reload();alert('Thank you for purchasing! Please check out our e-commerce page (Shopee/Tokopedia)!')" style="margin: 5px;padding: 2px;width: 20%;"> <input type="reset" value="Reset" style="margin: 5px;padding: 2px;width: 20%;">    
+                </center>
+            </p>
+        </div>
+    </form>
+
+    <div class="corner"><a href="contact.html" target="body">Contact Us</a></div>
+
+    <div class="footer">
+        <center>
+            <table width="80%">
+                <thead>
+                    <tr>
+                        <td width="10%">
+                            <img src="images/OmahPangan.png">
+                        </td>
+                        <td width="30%">
+                            <p align="justify">We offer the most friendly price. Our shop 
+                                is a haven for food enthusiasts seeking convenience 
+                                without compromising on taste or quality.</p>
+                        </td>
+                        <th>
+                            <h4>Browse</h4>
+                            <ul> 
+                                <li><a href="body.html" target="body">Home</a></li>
+                                <li><a href="products.html" target="body">Products</a></li>
+                                <li><a href="about.html" target="body">About Us</a></li>
+                            </ul>
+                        </th>
+                        <th>
+                            <h4>Follow Us</h4>
+                            <ul>
+                                <li><a href="https://id.shp.ee/Wzbtvut" target="_blank">Shopee</a></li>
+                                <li><a href="https://tokopedia.link/HiU7peVMMNb" target="_blank">Tokopedia</a></li>
+                                <li><a href="https://www.instagram.com/omah_pangan?igsh=MW52ZmMzYXBpd203Yg==" target="_blank">Instagram</a></li>
+                            </ul> 
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+            <hr>
+            <p style="font-size: 10px; padding-top: 3px;">Made by: Hafshah Fadilma A</p>
+        </center>
+    </div>
+
+
+
+
+    <script langauge="JavaScript">
+        // count
+        function format(num, fix) {
+        var p = num.toFixed(fix).split(".");
+        return p[0].split("").reduceRight(function(acc, num, i, orig) {
+            if ("-" === num && 0 === i) {
+                return num + acc;
+            }
+            var pos = orig.length - i - 1
+            return  num + (pos && !(pos % 3) ? "." : "") + acc;
+        }, "") + (p[1] ? "." + p[1] : "");
+        }
+        
+        function hitungtotal() 
+        {
+         var rolade = parseFloat(document.Iform.iRolade.value);
+         var roll = parseFloat(document.Iform.iRoll.value);
+         var bakwan = parseFloat(document.Iform.iBakwan.value);
+         var yogurt = parseFloat(document.Iform.iYogurt.value);
+         var hash = parseFloat(document.Iform.iHash.value);
+         var nugget = parseFloat(document.Iform.iNugget.value);
+         var donat = parseFloat(document.Iform.iDonat.value);
+         var katsu = parseFloat(document.Iform.iKatsu.value);
+         var kirim = (document.Iform.iKirim.value);
+         var sub = undefined;
+         var diskon = 0.0;
+         var total = 0.0;
+         var ongkir = 0.0;
+
+
+         sub = 28000*rolade + 22500*roll + 26500*bakwan + 22800*donat + 16500*yogurt + 34000*hash + 36500*nugget + 36500*katsu;
+
+        //  if (typeof rolade === 'undefined') 
+        //  {
+        //     alert("Please fill out the quantity on every product.");
+        //  }
+        //  else {}
+        
+         if (document.Iform.iResell.checked==true)
+         {
+         diskon = 0.05*sub;
+         }
+         else
+         {
+         diskon=0.0;
+         }
+         
+         if (kirim == "Jakarta") 
+            {
+                ongkir = 20000;
+            }
+            else if (kirim == "Bodetabek") 
+            {
+                ongkir =  25000;
+            }
+            else if (kirim == "Jawa") 
+            {
+                ongkir = 30000;
+            }
+            else 
+            {
+                ongkir = 40000;
+            } 
+
+         total = sub-diskon+ongkir;
+
+         document.Iform.oSub.value= "Rp "+ format(eval(sub));
+         document.Iform.oDiskon.value= "Rp "+ format(eval(diskon));
+         document.Iform.oOngkir.value= "Rp "+ format(eval(ongkir));
+         document.Iform.oTotal.value= "Rp "+ format(eval(total));
+     }
+
+
+
+     // display
+     var ProductImg = document.getElementById("ProductImg");
+     var SmallImg = document.getElementsByClassName("small-img");
+        
+        SmallImg[0].onclick = function() 
+        {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function() 
+        {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function() 
+        {
+            ProductImg.src = SmallImg[2].src;
+        }
+        
+    var ProductImgB = document.getElementById("ProductImgB");
+    var SmallImgB = document.getElementsByClassName("small-imgB");
+        
+        SmallImgB[0].onclick = function() 
+        {
+            ProductImgB.src = SmallImgB[0].src;
+        }
+        SmallImgB[1].onclick = function() 
+        {
+            ProductImgB.src = SmallImgB[1].src;
+        }
+        SmallImgB[2].onclick = function() 
+        {
+            ProductImgB.src = SmallImgB[2].src;
+        }
+
+    var ProductImgC = document.getElementById("ProductImgC");
+    var SmallImgC = document.getElementsByClassName("small-imgC");
+        
+        SmallImgC[0].onclick = function() 
+        {
+            ProductImgC.src = SmallImgC[0].src;
+        }
+        SmallImgC[1].onclick = function() 
+        {
+            ProductImgC.src = SmallImgC[1].src;
+        }
+        SmallImgC[2].onclick = function() 
+        {
+            ProductImgC.src = SmallImgC[2].src;
+        }
+
+    var ProductImgD = document.getElementById("ProductImgD");
+    var SmallImgD = document.getElementsByClassName("small-imgD");
+        
+        SmallImgD[0].onclick = function() 
+        {
+            ProductImgD.src = SmallImgD[0].src;
+        }
+        SmallImgD[1].onclick = function() 
+        {
+            ProductImgD.src = SmallImgD[1].src;
+        }
+        SmallImgD[2].onclick = function() 
+        {
+            ProductImgD.src = SmallImgD[2].src;
+        }
+
+    var ProductImgE = document.getElementById("ProductImgE");
+    var SmallImgE = document.getElementsByClassName("small-imgE");
+        
+        SmallImgE[0].onclick = function() 
+        {
+            ProductImgE.src = SmallImgE[0].src;
+        }
+        SmallImgE[1].onclick = function() 
+        {
+            ProductImgE.src = SmallImgE[1].src;
+        }
+        SmallImgE[2].onclick = function() 
+        {
+            ProductImgE.src = SmallImgE[2].src;
+        }
+
+    var ProductImgF = document.getElementById("ProductImgF");
+    var SmallImgF = document.getElementsByClassName("small-imgF");
+        
+        SmallImgF[0].onclick = function() 
+        {
+            ProductImgF.src = SmallImgF[0].src;
+        }
+        SmallImgF[1].onclick = function() 
+        {
+            ProductImgF.src = SmallImgF[1].src;
+        }
+        SmallImgF[2].onclick = function() 
+        {
+            ProductImgF.src = SmallImgF[2].src;
+        }
+
+    var ProductImgG = document.getElementById("ProductImgG");
+    var SmallImgG = document.getElementsByClassName("small-imgG");
+        
+        SmallImgG[0].onclick = function() 
+        {
+            ProductImgG.src = SmallImgG[0].src;
+        }
+        SmallImgG[1].onclick = function() 
+        {
+            ProductImgG.src = SmallImgG[1].src;
+        }
+        SmallImgG[2].onclick = function() 
+        {
+            ProductImgG.src = SmallImgG[2].src;
+        }
+
+    var ProductImgH = document.getElementById("ProductImgH");
+    var SmallImgH = document.getElementsByClassName("small-imgH");
+        
+        SmallImgH[0].onclick = function() 
+        {
+            ProductImgH.src = SmallImgH[0].src;
+        }
+        SmallImgH[1].onclick = function() 
+        {
+            ProductImgH.src = SmallImgH[1].src;
+        }
+        SmallImgH[2].onclick = function() 
+        {
+            ProductImgH.src = SmallImgH[2].src;
+        }
+    
+        function redirectOnSubmit(event) {
+            event.preventDefault(); // Prevent default form submission
+            window.location.href = "/studentinterface.html"; // Redirect to desired page
+        }
+        document.querySelector("form").addEventListener("submit", redirectOnSubmit);
+
+     </script>
+</body>
+</html>
